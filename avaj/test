@@ -1,0 +1,8 @@
+./src/edu/unit/vtymchen/avaj/aircrafts/Aircraft.java
+./src/edu/unit/vtymchen/avaj/aircrafts/Flyable.java
+./src/edu/unit/vtymchen/avaj/aircrafts/Helicopter.java
+./src/edu/unit/vtymchen/avaj/tower/WeatherTower.java
+./src/edu/unit/vtymchen/avaj/tower/Tower.java
+./src/edu/unit/vtymchen/avaj/Coordinates.java
+./src/edu/unit/vtymchen/avaj/Main.java
+./src/edu/unit/vtymchen/avaj/Weather/WeatherProvider.java

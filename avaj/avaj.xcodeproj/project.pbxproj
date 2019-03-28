@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		F572DEDB203E0B320079F3B8 /* Main.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Main.java; sourceTree = "<group>"; };
+		F572DEDF203E187B0079F3B8 /* Aircraft.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Aircraft.java; sourceTree = "<group>"; };
+		F5C8334720C9D22E00F1D9CD /* Tower.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Tower.java; sourceTree = "<group>"; };
+		F5C8334820C9DB7500F1D9CD /* WeatherTower.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = WeatherTower.java; sourceTree = "<group>"; };
+		F5CB1EA720ED5A7F00A0FBCA /* JetPlane.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JetPlane.java; sourceTree = "<group>"; };
+		F5CC8999208D225F00A31411 /* Coordinates.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Coordinates.java; sourceTree = "<group>"; };
+		F5CC899A208FC33200A31411 /* Flyable.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Flyable.java; sourceTree = "<group>"; };
+		F5CC899B208FC76C00A31411 /* Helicopter.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Helicopter.java; sourceTree = "<group>"; };
+		F5CC899F20912E2000A31411 /* WeatherProvider.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = WeatherProvider.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F572DECD203CAFA30079F3B8 = {
+			isa = PBXGroup;
+			children = (
+				F572DEDA203E0AFD0079F3B8 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		F572DED7203E09510079F3B8 /* edu */ = {
+			isa = PBXGroup;
+			children = (
+				F572DED8203E09560079F3B8 /* unit */,
+			);
+			path = edu;
+			sourceTree = "<group>";
+		};
+		F572DED8203E09560079F3B8 /* unit */ = {
+			isa = PBXGroup;
+			children = (
+				F572DED9203E09640079F3B8 /* vtymchen */,
+			);
+			path = unit;
+			sourceTree = "<group>";
+		};
+		F572DED9203E09640079F3B8 /* vtymchen */ = {
+			isa = PBXGroup;
+			children = (
+				F572DEDC203E0B6B0079F3B8 /* avaj */,
+			);
+			path = vtymchen;
+			sourceTree = "<group>";
+		};
+		F572DEDA203E0AFD0079F3B8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F572DED7203E09510079F3B8 /* edu */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F572DEDC203E0B6B0079F3B8 /* avaj */ = {
+			isa = PBXGroup;
+			children = (
+				F5CC899E20912C0C00A31411 /* Weather */,
+				F5CC899D208FCA9D00A31411 /* tower */,
+				F572DEDD203E18070079F3B8 /* aircrafts */,
+				F572DEDB203E0B320079F3B8 /* Main.java */,
+				F5CC8999208D225F00A31411 /* Coordinates.java */,
+			);
+			path = avaj;
+			sourceTree = "<group>";
+		};
+		F572DEDD203E18070079F3B8 /* aircrafts */ = {
+			isa = PBXGroup;
+			children = (
+				F572DEDF203E187B0079F3B8 /* Aircraft.java */,
+				F5CC899A208FC33200A31411 /* Flyable.java */,
+				F5CC899B208FC76C00A31411 /* Helicopter.java */,
+				F5CB1EA720ED5A7F00A0FBCA /* JetPlane.java */,
+			);
+			path = aircrafts;
+			sourceTree = "<group>";
+		};
+		F5CC899D208FCA9D00A31411 /* tower */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8334720C9D22E00F1D9CD /* Tower.java */,
+				F5C8334820C9DB7500F1D9CD /* WeatherTower.java */,
+			);
+			path = tower;
+			sourceTree = "<group>";
+		};
+		F5CC899E20912C0C00A31411 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F5CC899F20912E2000A31411 /* WeatherProvider.java */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		F572DECE203CAFA30079F3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = F572DED1203CAFA30079F3B8 /* Build configuration list for PBXProject "avaj" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F572DECD203CAFA30079F3B8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F572DED2203CAFA30079F3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F572DED3203CAFA30079F3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F572DED1203CAFA30079F3B8 /* Build configuration list for PBXProject "avaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F572DED2203CAFA30079F3B8 /* Debug */,
+				F572DED3203CAFA30079F3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F572DECE203CAFA30079F3B8 /* Project object */;
+}
